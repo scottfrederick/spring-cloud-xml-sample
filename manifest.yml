@@ -1,0 +1,7 @@
+---
+applications:
+- name: spring-cloud-connectors-xml
+  memory: 512M
+  instances: 1
+  path: build/libs/spring-cloud-connectors-xml.jar
+  services: [test-db]
